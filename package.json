@@ -12,10 +12,11 @@
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.5",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "deploy": "npm run build && firebase deploy"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --hot",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
